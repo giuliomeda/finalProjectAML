@@ -7,8 +7,8 @@ import joblib
 import numpy as np
 
 # carico il modello e la pipeline
-model = joblib.load("xgboost_model.pkl")
-pipeline_user = joblib.load("pipeline_for_user_input.pkl")
+model = joblib.load("model/xgboost_model.pkl")
+pipeline_user = joblib.load("model/pipeline_for_user_input.pkl")
 
 # Interfaccia Streamlit
 st.title("🧠 Stroke Prediction Project")

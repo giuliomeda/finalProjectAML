@@ -1,2 +1,2 @@
 #!/bin/bash
-uv run streamlit run main.py
+uv run streamlit run app.py
